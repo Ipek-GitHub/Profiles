@@ -51,10 +51,10 @@ function Signup() {
               name="password"
               label="Password"
               variant="outlined"
+              type="password"
               fullWidth
               value={formik.values.password}
               onChange={formik.handleChange}
-              type="password"
             />
           </Grid>
           <Grid item xs={12}>
